@@ -1,0 +1,33 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Camp_WeaponStand_02_SM.FBX
+	TranslateComponent
+	{
+		POS
+		0.000000 0.000000 0.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Camp_WeaponStand_02_SM.FBX
+		MeterialTexture
+		Camp_WeaponStand_02_SM_2 Prefabs\Camp_WeaponStand_02.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER
+		0
+		COLLISION_TYPE
+		1
+	}
+}

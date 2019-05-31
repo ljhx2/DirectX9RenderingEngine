@@ -1,0 +1,31 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Common_Fence_B_02_SM.FBX
+	TranslateComponent
+	{
+		POS
+		570.000000 250.000000 100.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Common_Fence_B_02_SM.FBX
+		MeterialTexture
+		Common_Fence_B_02_SM Prefabs\CM_Vill_Fence_01.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		
+		0
+	}
+}

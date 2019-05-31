@@ -1,0 +1,33 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Tombstone_A_01_Sm.FBX
+	TranslateComponent
+	{
+		POS
+		980.000000 -120.000000 5430.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Tombstone_A_01_Sm.FBX
+		MeterialTexture
+		Tombstone_A_01_Sm Prefabs\Tombstone_A_02.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER
+		0
+		COLLISION_TYPE
+		1
+	}
+}

@@ -1,0 +1,54 @@
+patrolPos = {
+	{x = 0, y = 0, z = 0},
+	{x = 100, y = 0, z = 0},
+	{x = 100, y = 0, z = 100},
+	{x = 0, y = 0, z = 100}
+}
+patrolIndex = 1
+patrolSize = 4
+patrolDelay = 5.0
+
+aniClip = "idle"
+aniSize = 0
+
+timeDelay = 0.0
+
+speed = 0.5
+
+function StartScript()
+	SetGameObjectPos(patrolPos[patrolIndex].x, patrolPos[patrolIndex].y, patrolPos[patrolIndex].z)
+	
+	aniSize = GetAniSize()
+	aniClip = "idle"
+	SetAni(aniClip)
+end
+
+function UpdateScript(time)
+	if aniClip == "idle" then
+		timeDelay = timeDelay + time
+
+		if timeDelay > patrolDelay then
+			patrolIndex = patrolIndex + 1
+			if patrolIndex > patrolSize then
+				patrolIndex = 1
+			end
+			
+			aniClip = "run"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+	
+	elseif aniClip == "run" then
+
+		local distance = GetDistance(patrolPos[patrolIndex].x, patrolPos[patrolIndex].y, patrolPos[patrolIndex].z);
+
+		if distance > 1.0 then
+			DestinationMove(patrolPos[patrolIndex].x, patrolPos[patrolIndex].y, patrolPos[patrolIndex].z, speed)
+		else
+			aniClip = "idle"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+	end
+end
+

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCENE>
+    <!--Scene Start-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>helo9.raw</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="10" y="10" z="10"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="-530" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <TERRAIN_COMPONENT>
+            <FILE_FATH Name="helo9.raw"/>
+        </TERRAIN_COMPONENT>
+    </GAMEOBJECT>
+    <GAMEOBJECT>
+        <NAME>StoneWall01.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/"/>
+            <FILE_FATH Name="StoneWall01.FBX"/>
+            <MATERIAL/>
+        </FBX_COMPONENT>
+        <ANIMATION_COMPONENT/>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--Component Start-->
+    <!--Component End-->
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="4" y="4" z="4"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="590" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <ANIMATION_COMPONENT/>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--Component Start-->
+    <!--Component End-->
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>House_A_03_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/"/>
+            <FILE_FATH Name="House_A_03_Ruin_SM.FBX"/>
+            <MATERIAL/>
+        </FBX_COMPONENT>
+        <ANIMATION_COMPONENT/>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--Component Start-->
+    <!--Component End-->
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>House_A_04_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/"/>
+            <FILE_FATH Name="House_A_04_Ruin_SM.FBX"/>
+            <MATERIAL/>
+        </FBX_COMPONENT>
+        <ANIMATION_COMPONENT/>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--Component Start-->
+    <!--Component End-->
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>House_A_05_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/"/>
+            <FILE_FATH Name="House_A_05_Ruin_SM.FBX"/>
+            <MATERIAL/>
+        </FBX_COMPONENT>
+        <ANIMATION_COMPONENT/>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--Component Start-->
+    <!--Component End-->
+    <!--GameObject End-->
+    <!--Scene End-->
+</SCENE>

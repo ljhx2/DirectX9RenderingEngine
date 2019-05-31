@@ -1,0 +1,30 @@
+#Prefab File Load
+gameObject
+{
+	name
+	InGate.FBX
+	TranslateComponent
+	{
+		POS
+		0.000000 0.000000 170.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath InGate.FBX
+		MeterialTexture
+		ASE_A_HAC_InGate_SM Prefabs\CM_DG_InGate_2.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		0
+	}
+}

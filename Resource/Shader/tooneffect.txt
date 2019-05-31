@@ -1,0 +1,341 @@
+
+float4x4 gWorldMatrix;
+float4x4 WorldViewProjMatrix;
+//서영 
+//float4x4 matWorldView;		// World-View matrix
+float4 fFog;				// Fog parameters:
+//서영 
+//float4 gWorldLightPosition;
+float4 gWorldCameraPosition : ViewPosition;
+
+float3 gLightColor;
+
+texture DiffuseTex;
+texture NormalMapTex;
+texture SpecularMapTex;
+float4 Color;
+float4x4 ControlMatrixArray[56];
+int Model_Type;
+
+float Frustum_far1;				//진호
+float Frustum_far2;				//진호
+float4x4 Mat_LightViewProj;		//진호
+float4x4 Mat_LightViewProj1;		//진호
+float4x4 Mat_LightViewProj2;		//진호
+texture ShadowMap_Tex;				//진호
+texture ShadowMap_Tex1;				//진호
+texture ShadowMap_Tex2;				//진호
+float LgtDir;						//진호
+float4x4 Mat_View;					//진호
+
+sampler2D ShadowSampler = sampler_state
+{
+	Texture = (ShadowMap_Tex);
+};	//진호
+sampler2D ShadowSampler1 = sampler_state
+{
+	Texture = (ShadowMap_Tex1);
+};	//진호
+sampler2D ShadowSampler2 = sampler_state
+{
+	Texture = (ShadowMap_Tex2);
+};	//진호
+
+struct VS_INPUT
+{
+    float4 position : POSITION;
+    float3 normal   : NORMAL;
+    float2 uvCoords : TEXCOORD;
+    float4 weight : BLENDWEIGHT;
+    float4 index : BLENDINDICES;
+	float3 mTangent: TANGENT;
+    float3 mBinormal: BINORMAL;
+};
+
+struct VS_OUTPUT
+{
+    float4 position : POSITION;
+    float2 uvCoords : TEXCOORD;
+    float3 mViewDir: TEXCOORD2;
+    float3 T : TEXCOORD3;
+    float3 B : TEXCOORD4;
+    float3 N : TEXCOORD5;
+	
+	float4 mClipPosition : TEXCOORD6;	//진호
+	float4 mClipPosition1 : TEXCOORD7;	//진호
+	float4 mClipPosition2 : TEXCOORD8;	//진호
+
+	float4 viewDistance : TEXCOORD1;	//진호
+	
+	float  Fog		: FOG;// 서영
+};
+
+VS_OUTPUT Main(VS_INPUT input)
+{
+    VS_OUTPUT output = (VS_OUTPUT)0;
+    if(Model_Type == 1){
+		float4x4 resultMat = (float4x4)0;
+		float resultWeight = 0;
+
+		resultMat += ControlMatrixArray[ (int)input.index[0] ] * input.weight[0];
+		resultWeight += input.weight[0];
+    
+		resultMat += ControlMatrixArray[ (int)input.index[1] ] * input.weight[1];
+		resultWeight += input.weight[1];
+
+		resultMat += ControlMatrixArray[ (int)input.index[2] ] * input.weight[2];
+		resultWeight += input.weight[2];
+
+		resultMat += ControlMatrixArray[ (int)input.index[3] ] * input.weight[3];
+		resultWeight += input.weight[3];
+
+		float4 pos;
+
+		pos.x = (resultMat._11 * input.position.x) +  (resultMat._21 * input.position.y) +  (resultMat._31 * input.position.z) +  resultMat._41;
+		pos.y = (resultMat._12 * input.position.x) +  (resultMat._22 * input.position.y) +  (resultMat._32 * input.position.z) +  resultMat._42;
+		pos.z = (resultMat._13 * input.position.x) +  (resultMat._23 * input.position.y) +  (resultMat._33 * input.position.z) +  resultMat._43;
+	
+		pos.w = 1.0;
+
+		output.position = mul(pos , WorldViewProjMatrix);
+
+		//----------진호
+		float4 worldPosition = mul(pos, gWorldMatrix);
+		output.viewDistance = mul(worldPosition, Mat_View);
+		output.mClipPosition = mul(worldPosition, Mat_LightViewProj);
+		output.mClipPosition1 = mul(worldPosition, Mat_LightViewProj1);
+		output.mClipPosition2 = mul(worldPosition, Mat_LightViewProj2);
+
+		//--------------
+    }
+    else if(Model_Type == -1){
+		output.position = mul(input.position , WorldViewProjMatrix);
+
+		//----------진호
+		float4 worldPosition = mul(input.position, gWorldMatrix);
+		output.viewDistance = mul(worldPosition, Mat_View);
+		output.mClipPosition = mul(worldPosition, Mat_LightViewProj);
+		output.mClipPosition1 = mul(worldPosition, Mat_LightViewProj1);
+		output.mClipPosition2 = mul(worldPosition, Mat_LightViewProj2);
+		//--------------
+    }
+     
+    output.uvCoords = input.uvCoords;
+    
+
+    float4 worldPosition = mul( input.position, gWorldMatrix );
+
+    float3 viewDir = worldPosition.xyz - gWorldCameraPosition.xyz;
+    output.mViewDir = normalize(viewDir);
+
+    float3 worldNormal = mul( input.normal, (float3x3)gWorldMatrix );
+    output.N = normalize(worldNormal);
+
+	float3 worldTangent = mul(input.mTangent, (float3x3)gWorldMatrix );
+    output.T = normalize(worldTangent);
+   
+    float3 worldBinormal = mul(input.mBinormal, (float3x3)gWorldMatrix );
+    output.B = normalize(worldBinormal);
+
+  //----------서영 - Fog 
+	float4		camPos;
+	
+	float fDensity	= fFog.x;
+	float fFogEnd	= fFog.y;
+
+	// 카메라 공간에서의 정점 위치 계산
+	camPos = mul(worldPosition, Mat_View);
+
+	float fDist = camPos.z / fFogEnd * 0.4;  
+ 
+	output.Fog =  exp(-fDist * fDensity); 
+  //----------서영
+	
+    return output;
+}
+
+sampler DiffuseSampler = sampler_state
+{
+    Texture   = (DiffuseTex);
+   // MinFilter = POINT; // no filtering for cartoon shading
+    //MagFilter = POINT;
+    MinFilter = LINEAR; // no filtering for cartoon shading
+    MagFilter = LINEAR;
+    MipFilter = NONE;
+};
+sampler2D NormalSampler = sampler_state
+{
+   Texture = (NormalMapTex);
+   MAGFILTER = LINEAR;
+   MINFILTER = LINEAR;
+};
+sampler2D SpecularSampler = sampler_state
+{
+   Texture = (SpecularMapTex);
+   MAGFILTER = LINEAR;
+   MINFILTER = LINEAR;
+};
+
+struct PS_INPUT
+{
+   float2 mUV : TEXCOORD0;
+   float3 mViewDir: TEXCOORD2;
+   float3 T : TEXCOORD3;
+   float3 B : TEXCOORD4;
+   float3 N : TEXCOORD5;
+
+   float4 mClipPosition : TEXCOORD6;	//진호
+   float4 mClipPosition1 : TEXCOORD7;	//진호
+   float4 mClipPosition2 : TEXCOORD8;	//진호
+   
+   float4 viewDistance : TEXCOORD1;	//진호
+   
+   	float  Fog		: FOG;// 서영
+};
+
+float4 NormalMapping_Pass_0_Pixel_Shader_ps_main(PS_INPUT Input) : COLOR
+{
+ 
+   // Worldnormal 구하기 
+   float3 tangentNormal = tex2D(NormalSampler, Input.mUV).xyz;
+   tangentNormal = normalize(tangentNormal * 2 - 1);
+
+   float3x3 TBN = float3x3(normalize(Input.T), normalize(Input.B), normalize(Input.N));
+   TBN = transpose(TBN);
+   float3 worldNormal = mul(TBN, tangentNormal);
+
+  // float3 worldNormal = mul(Input.N, tangentNormal);
+
+   // diffuse 구하기
+   float4 albedo = tex2D(DiffuseSampler, Input.mUV);
+   float3 diffuse = saturate(dot(worldNormal, -LgtDir));
+   diffuse = gLightColor * albedo.rgb * diffuse;
+ 
+
+
+   // specular 구하기
+   float3 specular = 0;
+   if ( diffuse.x > 0 )
+   {
+	  float3 reflection = reflect(LgtDir, worldNormal);
+      specular = saturate(dot(reflection, -Input.mViewDir ));
+      specular = pow(specular, 20.0f);
+
+	  float4 specularIntensity  = tex2D(SpecularSampler, Input.mUV);
+      specular *= specularIntensity.rgb * gLightColor;
+   }
+
+   float3 ambient = float3(0.6f, 0.6f, 0.6f) * albedo;
+
+   float3 rgb = ambient + diffuse + specular;
+
+
+   //-----------진호
+   float distance = Input.viewDistance.z;
+
+   float SAMP_DX = 1.0f / 2048.0f;
+
+   float s[4];
+
+   float lightDepth;
+   float2 shadowUV;
+
+   if (distance < Frustum_far1)
+   {
+		lightDepth = Input.mClipPosition.z / Input.mClipPosition.w;
+		shadowUV = Input.mClipPosition.xy / Input.mClipPosition.w;
+		shadowUV.y = -shadowUV.y;
+		shadowUV = ( shadowUV * 0.5f ) + 0.5f;
+
+		s[0] = tex2D(ShadowSampler, shadowUV).r;
+		s[1] = tex2D(ShadowSampler, shadowUV + float2(SAMP_DX, 0)).r;
+		s[2] = tex2D(ShadowSampler, shadowUV + float2(0, SAMP_DX)).r;
+		s[3] = tex2D(ShadowSampler, shadowUV + float2(SAMP_DX, SAMP_DX)).r;
+   }
+   else if (distance < Frustum_far2)
+   {
+		 lightDepth = Input.mClipPosition1.z / Input.mClipPosition1.w;
+		 shadowUV = Input.mClipPosition1.xy / Input.mClipPosition1.w;
+		 shadowUV.y = -shadowUV.y;
+		 shadowUV = ( shadowUV * 0.5f ) + 0.5f;
+
+		 s[0] = tex2D(ShadowSampler1, shadowUV).r;
+		 s[1] = tex2D(ShadowSampler1, shadowUV + float2(SAMP_DX, 0)).r;
+		 s[2] = tex2D(ShadowSampler1, shadowUV + float2(0, SAMP_DX)).r;
+		 s[3] = tex2D(ShadowSampler1, shadowUV + float2(SAMP_DX, SAMP_DX)).r;
+   }
+   else
+   {
+		 lightDepth = Input.mClipPosition2.z / Input.mClipPosition2.w;
+		 shadowUV = Input.mClipPosition2.xy / Input.mClipPosition2.w;
+		 shadowUV.y = -shadowUV.y;
+		 shadowUV = ( shadowUV * 0.5f ) + 0.5f;
+
+		 s[0] = tex2D(ShadowSampler2, shadowUV).r;
+		 s[1] = tex2D(ShadowSampler2, shadowUV + float2(SAMP_DX, 0)).r;
+		 s[2] = tex2D(ShadowSampler2, shadowUV + float2(0, SAMP_DX)).r;
+		 s[3] = tex2D(ShadowSampler2, shadowUV + float2(SAMP_DX, SAMP_DX)).r;
+   }
+
+   //--추가 (PCF)
+
+
+	float result[4];
+	
+	for (int i = 0; i < 4; i++)
+	{
+		if ((lightDepth < 1.0f) &&
+			(shadowUV.x <= 1.0f) && (shadowUV.x >= 0.0f) &&
+			(shadowUV.y <= 1.0f) && (shadowUV.y >= 0.0f))
+		{
+			result[i] = lightDepth - 0.001f <= s[i];
+		}
+		else
+		{
+			result[i] = 1.0f;
+		}
+	}
+
+	float2 texelPos = shadowUV * 2048.0f;
+	float2 t = frac(texelPos);
+
+	float resultLerp = lerp(lerp(result[0], result[1], t.x),
+							lerp(result[2], result[3], t.x), t.y);
+
+	resultLerp /= 2.0f;
+
+	resultLerp += 0.5;
+
+
+	float3 newrgb = rgb * resultLerp;
+	   //--추가 끝
+	   
+	
+	//-----------------------------------------서영
+	//FinalColor 를 사용 -> Fog 적용 
+	//FinalColor = float4(newrgb, 1);-> Fog 미적용
+	//-----------------------------------------
+	
+	clip(albedo.a -0.01);
+	float4 FinalColor;
+	
+	FinalColor = float4(newrgb, 1);
+	//FinalColor = lerp(float4(185/255.0f,187/255.0f,202/255.0f,1.0f),float4(newrgb, 1),Input.Fog);
+	
+	return FinalColor;  
+}
+
+technique Toon
+{
+    pass P0
+    {
+        vertexShader = compile vs_3_0  Main();
+        PixelShader = compile ps_3_0 NormalMapping_Pass_0_Pixel_Shader_ps_main();
+    }
+	
+}
+
+/*
+	saturate(x) : x 를 [0, 1] 의 범위에 제한한다
+	reflect(i, n) : 반사벡터를 리턴한다.
+*/

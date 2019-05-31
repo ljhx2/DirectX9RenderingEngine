@@ -1,0 +1,30 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Military_HeavyWagon_01_SM.FBX
+	TranslateComponent
+	{
+		POS
+		20.000000 0.000000 0.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		0.500000 0.500000 0.500000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Military_HeavyWagon_01_SM.FBX
+		MeterialTexture
+		Military_HeavyWagon_01_SM Prefabs\Military_HeavyWagon.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		0
+	}
+}

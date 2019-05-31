@@ -1,0 +1,53 @@
+patrolPos = {
+	{x = 0, y = 0, z = 0},
+	{x = 200, y = 0, z = 0},
+	{x = 200, y = 0, z = 200},
+	{x = 0, y = 0, z = 200}
+}
+statusType = {"idle", "walk" , "attackWalk" , "attack" , "demage" , "death"}
+patrolIndex = 1
+patrolSize = 4
+patrolDelay = 5.0
+
+aniClip = "idle1"
+aniSize = 0
+
+timeDelay = 0.0
+
+speed = 2.0
+
+function StartScript()
+	
+	aniSize = GetAniSize()
+	aniClip = "idle1"
+	SetAni(aniClip)
+end
+
+function UpdateScript(time)
+	if aniClip == "idle1" then
+		timeDelay = timeDelay + time
+
+		if timeDelay > patrolDelay then
+			patrolIndex = patrolIndex + 1
+			if patrolIndex > patrolSize then
+				patrolIndex = 1
+			end
+			
+			aniClip = "walk1"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+	
+	elseif aniClip == "walk1" then
+
+		local distance = GetDistance(patrolPos[patrolIndex].x, patrolPos[patrolIndex].y, patrolPos[patrolIndex].z);
+
+		if distance > 1.0 then
+			DestinationMove(patrolPos[patrolIndex].x, patrolPos[patrolIndex].y, patrolPos[patrolIndex].z, speed)
+		else
+			aniClip = "idle1"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+	end
+end

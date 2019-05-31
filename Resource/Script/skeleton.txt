@@ -1,0 +1,173 @@
+
+--상태 타입 종류 = {"idle", "walk" , "attackWalk" , "attack" , "demage" , "death"}
+--애니 종류 = {"idle1", "idle2", "idle3" "walk1", "walk2", "run" , "attack1","attack2" , "attack3","hit1", "hit2" , "death", "taunt"}
+--현재 상태
+status = "idle"
+
+--현재 애니 상태
+aniClip = "idle1"
+--애니 클립 사이즈
+aniSize = 0
+
+--타겟으로 지정한 오브젝트의 유니크 아이디
+tarGetObj_UID = -1
+
+
+timeDelay = 0.0
+
+--스켈레톤 스피드
+speed = 4.0
+--스켈레톤 공격 사거리
+attackRange = 100.0
+--스켈레톤 시야 사거리
+sightRage = 600.0
+--스켈레톤 HP
+hp = 100
+--스켈레톤 공격력
+power = 100
+
+--스켈레톤 공격 가능한지
+isAttack = false
+
+--Start함수 시작
+function StartScript()
+	aniSize = GetAniSize()
+	SetAni(aniClip)
+
+	--공격 활성화 애니 이벤트 등록
+	SetAniEvnetFunction("attack3", 1115, 1)
+	--공격 비활성화 애니 이벤트 등록
+	SetAniEvnetFunction("attack3", 1135, 2)
+	--스켈레톤 죽는 애니 이벤트 등록
+	SetAniEvnetFunction("death", 46, 3)
+end
+
+--update함수 시작
+function UpdateScript(time)
+
+	timeDelay = timeDelay + time
+
+	--죽지 않은 상태 일 경우만 검사
+	if status ~= "death" and hp <= 0 then
+		status = "death"
+		aniClip = "death"
+		SetAni(aniClip)
+		timeDelay = 0.0
+	end 
+
+
+	if status == "idle" then
+		
+		--자신의 시야 사거리 안에 있는 player중 가장 가까운 player U_ID를 받는다 없으면 -1
+		tarGetObj_UID = GetTagToUID_MostNearGameObject(1, sightRage)
+		
+		--있을 경우 공격 하러 이동한다
+		if tarGetObj_UID ~= -1 then
+			status = "attackWalk"
+			aniClip = "walk1"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+
+	elseif status == "walk" then
+		
+		tarGetObj_UID = GetTagToUID_MostNearGameObject(1, sightRage)
+		
+		if tarGetObj_UID ~= -1 then
+			status = "attackWalk"
+			aniClip = "walk1"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+
+	elseif status == "attackWalk" then
+		
+		--공격 상대에게 걸어간다. 공격 상대가 보이지 않으면 idle상태로 바꾼다. 공격 사거리 안이면 attack상태로 바뀐다
+		local IsMove = GameObjectToMove(tarGetObj_UID, speed)
+		
+		if IsMove == false then
+			tarGetObj_UID = -1
+			status = "idle"
+			aniClip = "idle1"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		else
+			local distance = UID_GameObjectDistance(tarGetObj_UID)
+			if distance < attackRange then
+				status = "attack"
+				aniClip = "attack3"
+				SetAni(aniClip)
+				timeDelay = 0.0
+			end
+		end
+
+	elseif status == "attack" then
+		--플레이어가 살아있다면 계속 공격, 없거나 죽으면 idle상태가 된다
+		local IsPlayerLife = IsExistGameObject(tarGetObj_UID)
+
+		if IsPlayerLife == false then
+			tarGetObj_UID = -1
+			status = "idle"
+			aniClip = "idle1"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		else
+			local distance = UID_GameObjectDistance(tarGetObj_UID)
+			if distance >= attackRange then
+				status = "attackWalk"
+				aniClip = "walk1"
+				SetAni(aniClip)
+				timeDelay = 0.0
+			end
+		end
+
+	elseif status == "demage" then
+
+	elseif status == "death" then
+		
+	end
+end
+
+
+--COLLISION 이벤트 함수
+function CollisionEvent(UID_1, collData1, UID_2, collData2)
+
+	if status == "death" then
+		return
+	end
+
+	--공격이 활성화 상태이고 플레이어일 경우에만 공격
+	if isAttack == true and collData1 == "skeletonSword" and collData2 == "playerBody" then
+		--공격 함수를 호출
+		TargetObjectDemage(UID_2, power)
+		--공격을 비활성화 시킨다
+		isAttack = false
+	end
+end
+
+--ANIMATION 이벤트 함수
+function AnimationEvent(eventType)
+
+	if eventType == 1 then
+		isAttack = true
+	elseif eventType == 2 then
+		isAttack = false
+	elseif eventType == 3 then
+		DeleteObject()
+		return
+	end
+end
+
+--데미지를 입었을때 호출되는 함수
+function OnDemage(demage)
+
+	if status == "death" then
+		return
+	end
+
+	hp = hp - demage
+	
+	if hp < 0 then
+		hp = 0
+	end
+end

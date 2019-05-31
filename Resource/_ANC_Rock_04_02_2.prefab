@@ -1,0 +1,32 @@
+#Prefab File Load
+gameObject
+{
+	name
+	_ANC_Rock_04_02_2.FBX
+	GAMEOBJECT_TAG
+	TAG_STATIC
+	TranslateComponent
+	{
+		POS
+		3230.000000 0.000000 -2580.000000
+		ROT
+		-1.570000 0.200000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath ANC_Rock_04_02_2.FBX
+		MeterialTexture
+		ANC_Rock_04_02_2 Prefabs\Rock_ALL_01.png
+		1.000000 1.000000 1.000000 1.000000
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER
+		0
+		COLLISION_TYPE
+		1
+	}
+}

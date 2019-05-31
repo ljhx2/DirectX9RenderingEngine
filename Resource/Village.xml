@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCENE>
+    <!--Scene Start-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_helo9.raw</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <TERRAIN_COMPONENT>
+            <FILE_FATH Name="helo9.raw"/>
+            <CELL Spacing="50"/>
+            <FOG Bool="1"/>
+        </TERRAIN_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>0.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-370" y="-390" z="5970"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_01_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_01_SM Path="Prefabs\Village\Military_Gate_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>1.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-930" y="-260" z="5990"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_03_SM Path="Prefabs\Village\Military_Gate_01_3.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="0.40999991" z="0"/>
+            <POS x="220" y="70" z="-300"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="-100" z="4840"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="220" y="-100" z="4840"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="-40" z="4240"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="220" y="-30" z="4240"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="10" z="3640"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="220" y="30" z="3640"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="80" z="3040"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="240" y="100" z="3040"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="80" z="2440"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="240" y="130" z="2440"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="60" z="1840"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="240" y="130" z="1840"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="30" z="1240"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="240" y="110" z="1240"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="0" z="640"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="240" y="70" z="640"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-820" y="-10" z="40"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="240" y="60" z="40"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="1.4799988" z="0"/>
+            <POS x="870" y="20" z="2950"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-1.1699992" z="0"/>
+            <POS x="-2920" y="-160" z="2250"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0.16000001" z="0"/>
+            <POS x="-1340" y="-70" z="3000"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0.97999942" z="0"/>
+            <POS x="-1450" y="-130" z="2020"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="1.5699989" z="0"/>
+            <POS x="820" y="-70" z="3810"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-1.459999" z="0"/>
+            <POS x="-1360" y="-120" z="3990"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-1.0399994" z="0"/>
+            <POS x="-3480" y="-260" z="480"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_03_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0.20000002" z="0"/>
+            <POS x="-2420" y="-210" z="1800"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_03_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_03_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_03_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-1.7199987" z="0"/>
+            <POS x="-3670" y="-280" z="-1790"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_03_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_03_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_03_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-1.9599985" z="0"/>
+            <POS x="-3720" y="-340" z="-620"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_03_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_03_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_03_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-0.1" z="0"/>
+            <POS x="-2770" y="-120" z="4030"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_03_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_03_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="1.7399987" z="0"/>
+            <POS x="260" y="50" z="-650"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_01_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_01_SM Path="Prefabs\Village\Barrack_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="4.6999998" y="2.1000001" z="0"/>
+            <POS x="-980" y="-10" z="-330"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_03_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_03_SM Path="Prefabs\Village\Barrack_A_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_05_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="2.2599983" z="0"/>
+            <POS x="-1480" y="-60" z="-680"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_05_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_05_SM Path="Prefabs\Village\Barrack_A_01_5.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_09_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="1.2999991" z="0"/>
+            <POS x="-2030" y="-100" z="-950"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_09_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_09_SM Path="Prefabs\Village\Barrack_A_01_9.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Cart_A_03_SM_2.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0.53999978" z="0"/>
+            <POS x="-1450" y="-70" z="-1120"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Cart_A_03_SM_2.FBX"/>
+            <MATERIAL>
+                <Cart_A_03_SM_2 Path="Prefabs\Village\Cart_A_01_3_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="0.47999984" z="0"/>
+            <POS x="-1870" y="-90" z="-910"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_03_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_03_SM Path="Prefabs\Village\Barrack_A_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_05_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-1.3499991" z="0"/>
+            <POS x="70" y="20" z="-1110"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_05_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_05_SM Path="Prefabs\Village\Barrack_A_01_5.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="1.0099994" z="0"/>
+            <POS x="-1950" y="-80" z="-1400"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_03_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_03_SM Path="Prefabs\Village\Barrack_A_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-2.629998" z="0"/>
+            <POS x="-1620" y="-160" z="-1890"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_01_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_01_SM Path="Prefabs\Village\Barrack_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_09_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="0.4899998" z="0"/>
+            <POS x="-1160" y="-70" z="-2030"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_09_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_09_SM Path="Prefabs\Village\Barrack_A_01_9.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-0.72999966" z="0"/>
+            <POS x="200" y="-10" z="-2120"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_01_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_01_SM Path="Prefabs\Village\Barrack_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Shanty_B_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="4" y="4" z="4"/>
+            <ROT x="-1.5700001" y="2.4199979" z="0"/>
+            <POS x="-2160" y="-590" z="-3300"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Shanty_B_01_SM.FBX"/>
+            <MATERIAL>
+                <Shanty_B_01_SM Path="Prefabs\Village\Shanty_B_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Shanty_B_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="5" y="5" z="5"/>
+            <ROT x="-1.5700001" y="1.7399991" z="0"/>
+            <POS x="-600" y="-740" z="-4020"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Shanty_B_01_SM.FBX"/>
+            <MATERIAL>
+                <Shanty_B_01_SM Path="Prefabs\Village\Shanty_B_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_09_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="0.30999997" z="0"/>
+            <POS x="580" y="0" z="-1720"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_09_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_09_SM Path="Prefabs\Village\Barrack_A_01_9.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-2.1599984" z="0"/>
+            <POS x="570" y="90" z="-640"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_02_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_02_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="1.399999" z="0"/>
+            <POS x="760" y="70" z="-1060"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="1.7799987" z="0"/>
+            <POS x="750" y="50" z="-1730"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="2.7499979" z="0"/>
+            <POS x="290" y="30" z="-2420"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="2.0499985" z="0"/>
+            <POS x="670" y="40" z="-2020"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Cart_A_03_SM_2.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-0.30999997" z="0"/>
+            <POS x="-190" y="-50" z="-1460"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Cart_A_03_SM_2.FBX"/>
+            <MATERIAL>
+                <Cart_A_03_SM_2 Path="Prefabs\Village\Cart_A_01_3_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_HeavyWagon_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="1.1799992" z="0"/>
+            <POS x="1010" y="40" z="-1800"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_HeavyWagon_02_SM.FBX"/>
+            <MATERIAL>
+                <Military_HeavyWagon_02_SM Path="Prefabs\Village\Military_HeavyWagon_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Barrack_A_09_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-2.3099983" z="0"/>
+            <POS x="530" y="40" z="-1240"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Barrack_A_09_SM.FBX"/>
+            <MATERIAL>
+                <Barrack_A_09_SM Path="Prefabs\Village\Barrack_A_01_9.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="1"/>
+            <ROT x="-1.5700001" y="1.379999" z="0"/>
+            <POS x="-2330" y="-100" z="-1130"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_02_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_02_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="2.2799983" z="0"/>
+            <POS x="-2180" y="-90" z="-600"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_02_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_02_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-0.47999981" z="0"/>
+            <POS x="-1760" y="-70" z="-190"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="2.7299979" z="0"/>
+            <POS x="-1100" y="40" z="-120"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_02_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_02_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-890" y="0" z="-40"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_03_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_03_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Common_Fence_B_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="0.8399995" z="0"/>
+            <POS x="-2130" y="-100" z="-2090"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Common_Fence_B_02_SM.FBX"/>
+            <MATERIAL>
+                <Common_Fence_B_02_SM Path="Prefabs\Village\CM_Vill_Fence_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-2.0899985" z="0"/>
+            <POS x="1290" y="-20" z="870"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-3.179997" z="0"/>
+            <POS x="780" y="-20" z="1530"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="3.1699975" z="0"/>
+            <POS x="-4580" y="-400" z="-490"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-0.019999702" z="0"/>
+            <POS x="2260" y="-120" z="-980"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-0.90999913" z="0"/>
+            <POS x="1180" y="-100" z="-680"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="4.6500001" y="0" z="0"/>
+            <POS x="700" y="-30" z="280"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-2.5199976" z="0"/>
+            <POS x="1090" y="-100" z="-2220"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_01_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-0.8399992" z="0"/>
+            <POS x="-1690" y="-100" z="370"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_01_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_01_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_04_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0.039999984" z="0"/>
+            <POS x="2010" y="-210" z="-2420"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_04_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_04_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_House_A_04_Ruin_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="2.0599985" z="0"/>
+            <POS x="550" y="-210" z="-2990"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="House_A_04_Ruin_SM.FBX"/>
+            <MATERIAL>
+                <House_A_04_Ruin_SM Path="Prefabs\Village\House_A_01_Ruin.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0.11999998" z="0"/>
+            <POS x="-1690" y="-20" z="430"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_03_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_03_SM Path="Prefabs\Village\RoadLamp_A_01_3.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-1080" y="-80" z="-760"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_02_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_02_SM Path="Prefabs\Village\RoadLamp_A_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-0.02" z="0"/>
+            <POS x="2520" y="110" z="-1150"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_02_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_02_SM Path="Prefabs\Village\RoadLamp_A_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="10" y="40" z="-1530"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_02_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_02_SM Path="Prefabs\Village\RoadLamp_A_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-0.049999997" z="0"/>
+            <POS x="-2810" y="-100" z="630"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-2760" y="-160" z="-620"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-120" y="-20" z="-2360"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-1300" y="-80" z="-2410"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-2210" y="-110" z="-370"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_RoadLamp_A_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-0.02" z="0"/>
+            <POS x="-1570" y="90" z="1070"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="RoadLamp_A_01_SM.FBX"/>
+            <MATERIAL>
+                <RoadLamp_A_01_SM Path="Prefabs\Village\RoadLamp_A_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_DirectionalLight1</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0.97000003" y="0" z="0"/>
+            <POS x="1370" y="80" z="-110"/>
+        </TRANSLATE_COMPONENT>
+        <LIGHT_COMPONENT>
+            <OPTION Type="1035903272"/>
+            <WORLD_POS x="1370" y="80" z="-110"/>
+            <DIR x="0" y="-0.82488567" z="0.56529945"/>
+            <COLOR Diffuse.R="0.80000001" Diffuse.G="0.80000001" Diffuse.B="0.80000001" Diffuse.A="1" Specular.R="0.80000001" Specular.G="0.80000001" Specular.B="0.80000001" Specular.A="1" Ambient.R="0.2" Ambient.G="0.2" Ambient.B="0.2" Ambient.A="1"/>
+        </LIGHT_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Gate_05_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2.4000001" y="2.4000001" z="2.4000001"/>
+            <ROT x="-1.5700001" y="-0.0099999998" z="0"/>
+            <POS x="1520" y="-130" z="5970"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_05_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_05_SM Path="Prefabs\Village\Military_Gate_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Gate_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="224" y="-270" z="5990"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_03_SM Path="Prefabs\Village\Military_Gate_01_3.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Gate_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="615" y="-270" z="5980"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_03_SM Path="Prefabs\Village\Military_Gate_01_3.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Gate_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="1010" y="-270" z="5980"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_03_SM Path="Prefabs\Village\Military_Gate_01_3.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Gate_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-0.0099999998" z="0"/>
+            <POS x="-1320" y="-260" z="5980"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_03_SM Path="Prefabs\Village\Military_Gate_01_3.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Gate_05_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2.4000001" y="2.4000001" z="2.4000001"/>
+            <ROT x="4.6500001" y="-0.029999999" z="3.1700001"/>
+            <POS x="-1840" y="-120" z="5990"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Gate_05_SM.FBX"/>
+            <MATERIAL>
+                <Military_Gate_05_SM Path="Prefabs\Village\Military_Gate_01.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Catapult_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-3.0299978" z="0"/>
+            <POS x="494" y="-150" z="5530"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Catapult_01_SM.FBX"/>
+            <MATERIAL>
+                <Military_Catapult_01_SM Path="Prefabs\Village\Military_Catapult_01_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_Catapult_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="3.2799971" z="0"/>
+            <POS x="-1220" y="-150" z="5540"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_Catapult_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_Catapult_03_SM Path="Prefabs\Village\Military_Catapult_03.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_WatchTower_01_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1.5"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="100" y="-180" z="5560"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_WatchTower_01_SM.FBX"/>
+            <MATERIAL>
+                <Military_WatchTower_01_SM Path="Prefabs\Village\Military_WatchTower.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Military_WatchTower_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1.5"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="-810" y="-220" z="5570"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Military_WatchTower_03_SM.FBX"/>
+            <MATERIAL>
+                <Military_WatchTower_03_SM Path="Prefabs\Village\Military_WatchTower_2.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Tombstone_A_01_Sm.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="980" y="-120" z="5420"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Tombstone_A_01_Sm.FBX"/>
+            <MATERIAL>
+                <Tombstone_A_01_Sm Path="Prefabs\Village\Tombstone_A_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Tombstone_A_01_Sm.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="1150" y="-120" z="5410"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Tombstone_A_01_Sm.FBX"/>
+            <MATERIAL>
+                <Tombstone_A_01_Sm Path="Prefabs\Village\Tombstone_A_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Tombstone_A_01_Sm.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-0.94999939" z="0"/>
+            <POS x="1020" y="-120" z="5400"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Tombstone_A_01_Sm.FBX"/>
+            <MATERIAL>
+                <Tombstone_A_01_Sm Path="Prefabs\Village\Tombstone_A_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Tombstone_A_01_Sm.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0" z="0"/>
+            <POS x="880" y="-120" z="5520"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Tombstone_A_01_Sm.FBX"/>
+            <MATERIAL>
+                <Tombstone_A_01_Sm Path="Prefabs\Village\Tombstone_A_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Tombstone_A_01_Sm.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="0.37999991" z="0"/>
+            <POS x="810" y="-120" z="5350"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Tombstone_A_01_Sm.FBX"/>
+            <MATERIAL>
+                <Tombstone_A_01_Sm Path="Prefabs\Village\Tombstone_A_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Tombstone_A_01_Sm.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-0.22000003" z="0"/>
+            <POS x="1010" y="-120" z="5550"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Tombstone_A_01_Sm.FBX"/>
+            <MATERIAL>
+                <Tombstone_A_01_Sm Path="Prefabs\Village\Tombstone_A_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Stonewall.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="2"/>
+            <ROT x="-1.5700001" y="-1.6099988" z="0"/>
+            <POS x="640" y="-160" z="5380"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Stonewall.FBX"/>
+            <MATERIAL>
+                <ASE_CM_Vill_Stonewall05_SM Path="Prefabs\Village\CM_Vill_Stonewall_A.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_StoneWall01.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="2" y="2" z="4"/>
+            <ROT x="-1.5700001" y="-3.3899972" z="0"/>
+            <POS x="930" y="-160" z="5630"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="StoneWall01.FBX"/>
+            <MATERIAL>
+                <ASE_CM_Vill_Stonewall04_SM Path="Prefabs\Village\CM_Vill_Stonewall_A.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_StoneWall02.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="3" y="3" z="3"/>
+            <ROT x="-1.5700001" y="-5.2700253" z="0"/>
+            <POS x="1270" y="-100" z="5590"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="StoneWall02.FBX"/>
+            <MATERIAL>
+                <ASE_CM_Vill_Stonewall06_SM Path="Prefabs\Village\CM_Vill_Stonewall_A.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Stonewall.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="-1.5700001" y="-1.1099993" z="0"/>
+            <POS x="1300" y="-120" z="5370"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Stonewall.FBX"/>
+            <MATERIAL>
+                <ASE_CM_Vill_Stonewall05_SM Path="Prefabs\Village\CM_Vill_Stonewall_A.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Camp_WeaponStand_02_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="4.6999998" y="-0.25000003" z="1.48"/>
+            <POS x="-1500" y="-70" z="-1500"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Camp_WeaponStand_02_SM.FBX"/>
+            <MATERIAL>
+                <Camp_WeaponStand_02_SM_2 Path="Prefabs\Village\Camp_WeaponStand_02.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>_Camp_WeaponStand_03_SM.FBX</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="4.75" y="0.2700026" z="0"/>
+            <POS x="-1310" y="-65" z="-1640"/>
+        </TRANSLATE_COMPONENT>
+        <FBX_COMPONENT>
+            <FOLDER Name="Prefabs/Village/"/>
+            <FILE_FATH Name="Camp_WeaponStand_03_SM.FBX"/>
+            <MATERIAL>
+                <Camp_WeaponStand_03_SM Path="Prefabs\Village\Camp_WeaponStand_03.tga" Diffuse.R="1" Diffuse.G="1" Diffuse.B="1" Diffuse.A="1"/>
+            </MATERIAL>
+        </FBX_COMPONENT>
+        <COLLIDER_COMPONENT>
+            <BOUNDING_RENDER Bool="0"/>
+            <COLLISION_TYPE Int="1"/>
+        </COLLIDER_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--GameObject Start-->
+    <GAMEOBJECT>
+        <NAME>SkyBox.dds</NAME>
+        <TRANSLATE_COMPONENT>
+            <SCALE x="1" y="1" z="1"/>
+            <ROT x="0" y="0" z="0"/>
+            <POS x="0" y="0" z="0"/>
+        </TRANSLATE_COMPONENT>
+        <SKYBOX_COMPONENT>
+            <FILE_OPTION Bool="1" Name="SkyBox/SkyBox.dds"/>
+        </SKYBOX_COMPONENT>
+    </GAMEOBJECT>
+    <!--GameObject End-->
+    <!--Scene End-->
+</SCENE>

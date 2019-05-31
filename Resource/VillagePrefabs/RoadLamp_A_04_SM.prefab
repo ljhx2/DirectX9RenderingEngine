@@ -1,0 +1,30 @@
+#Prefab File Load
+gameObject
+{
+	name
+	RoadLamp_A_04_SM.FBX
+	TranslateComponent
+	{
+		POS
+		-280.000000 0.000000 -140.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath RoadLamp_A_04_SM.FBX
+		MeterialTexture
+		RoadLamp_A_04_SM Prefabs\RoadLamp_A_01_4.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		0
+	}
+}

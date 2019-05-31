@@ -1,0 +1,30 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Military_Catapult_03_SM.FBX
+	TranslateComponent
+	{
+		POS
+		-4530.000000 -150.000000 8390.000000
+		ROT
+		-1.570000 3.279997 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Military_Catapult_03_SM.FBX
+		MeterialTexture
+		Military_Catapult_03_SM Prefabs\Military_Catapult_03.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		0
+	}
+}

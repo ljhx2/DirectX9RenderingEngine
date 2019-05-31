@@ -1,0 +1,72 @@
+#Prefab File Load
+gameObject
+{
+	name
+	FWR_ALL_0014.FBX
+	GAMEOBJECT_TAG
+	TAG_PLAYER
+	TranslateComponent
+	{
+		POS
+		-90.000000 60.000000 0.000000
+		ROT
+		0.000000 0.130000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath PLAYER_TYPE1.FBX
+		MeterialTexture
+		PT_Body Prefabs\FWR_ALL_0014\F_GD_Body.dds
+		1.000000 1.000000 1.000000 1.000000
+		MeterialTexture
+		PT_Glove Prefabs\FWR_ALL_0014\F_GD_Hand.dds
+		1.000000 1.000000 1.000000 1.000000
+		MeterialTexture
+		PT_Head Prefabs\FWR_ALL_0014\F_GD_Helmet.dds
+		1.000000 1.000000 1.000000 1.000000
+		MeterialTexture
+		PT_Shoes Prefabs\FWR_ALL_0014\F_GD_Boots.dds
+		1.000000 1.000000 1.000000 1.000000
+		MeterialTexture
+		face01 Prefabs\FWR_ALL_0014\FWR03_Face.dds
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+		ANIM_CLIP
+		attack1 0 0.000000 18.000000 0
+		ANIM_CLIP
+		attack2 0 23.000000 91.000000 0
+		ANIM_CLIP
+		attack3 0 96.000000 138.000000 0
+		ANIM_CLIP
+		dead1 0 422.000000 490.000000 0
+		ANIM_CLIP
+		dead2 0 497.000000 567.000000 0
+		ANIM_CLIP
+		demage 0 298.000000 331.000000 0
+		ANIM_CLIP
+		idle 0 143.000000 293.000000 1
+		ANIM_CLIP
+		run 0 336.000000 352.000000 1
+		ANIM_CLIP
+		stun 0 357.000000 417.000000 1
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER
+		0
+		COLLISION_TYPE
+		0
+		COLLISION_SHAPE
+		0 playerBody 50.000000 15.000000 15.000000 0.000000 0.000000 0.000000 24.000000 12.000000 0.000000 "Bip01 Pelvis" 1
+	}
+	ScriptComponent
+	{
+		ScriptPath
+		Script\player.txt
+	}
+}

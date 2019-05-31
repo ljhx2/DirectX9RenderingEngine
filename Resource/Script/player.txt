@@ -1,0 +1,207 @@
+--상태 종류 = {"idle", "run" , "attackWalk","attack" , "demage" , "death", }
+--애니 종류 = {"idle", "stun","run" , "attack1","attack2" , "attack3","dead1" , "dead2", "demage"}
+
+--현재 오브젝트 상태
+status = "idle"
+
+--현재 애니 상태
+aniClip = "idle"
+--애니 클립 사이즈
+aniSize = 0
+
+--타겟으로 지정한 오브젝트의 유니크 아이디
+tarGetObj_UID = -1
+
+--경과된 시간 저장
+timeDelay = 0.0
+
+--입력후 경과된 시간 저장
+inputDelay = 0.0
+
+--플레이어 스피드
+speed = 10.0
+--플레이어 공격 사거리
+attackRange = 150.0
+--플레이어 시야 사거리
+sightRage = 600.0
+--플레이어 HP
+hp = 1000
+--플레이어 공격력
+power = 100
+
+--오른손검 공격 가능한지
+isRightAttack = false
+
+--왼손검 공격 가능한지
+isLeftAttack = false
+
+--Start함수 시작
+function StartScript()
+	--attack2 0 23.000000 91.000000 0
+
+	--오른손 공격
+	SetAniEvnetFunction("attack2", 38, 1)
+	--SetAniEvnetFunction("attack2", 48, 2)
+	SetAniEvnetFunction("attack2", 61, 1)
+	--SetAniEvnetFunction("attack2", 72, 2)
+
+	--왼손공격
+	SetAniEvnetFunction("attack2", 30, 3)
+	--SetAniEvnetFunction("attack2", 37, 4)
+	SetAniEvnetFunction("attack2", 54, 3)
+	--SetAniEvnetFunction("attack2", 62, 4)
+
+	--공격 모션 끝났을 경우 호출
+	SetAniEvnetFunction("attack2", 91, 5)
+	--죽는 모션 끝났을 경우 호출
+	SetAniEvnetFunction("dead1", 490, 6)
+end
+
+--update함수 시작
+function UpdateScript(time)
+
+	timeDelay = timeDelay + time
+
+	--죽지 않은 상태 일 경우만 검사
+	if status ~= "death" and hp <= 0 then
+		status = "death"
+		aniClip = "dead1"
+		SetAni(aniClip)
+		timeDelay = 0.0
+	end 
+
+	--상태에 따른 움직임 업데이트
+	if status == "idle" then
+	elseif status == "run" then
+		
+		if inputDelay <= 0.0 then
+			inputDelay = 0.0
+			status = "idle"
+			aniClip = "idle"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+
+		inputDelay = inputDelay - time
+
+	elseif status == "attackWalk" then
+	elseif status == "attack" then
+	elseif status == "demage" then
+	elseif status == "death" then
+	else
+	end
+
+end
+
+
+--key입력을 받는 함수
+function OnKeyEvent(value)
+	
+	--죽어 있거나 공격중이면 아무것도 안한다
+	if status == "death" or status == "attack" then
+		return
+	end
+
+	--이동 관련 입력
+	if value == "W" or value == "S"then
+		
+		inputDelay = 0.1
+
+		if status == "idle" then
+			status = "run"
+			aniClip = "run"
+			SetAni(aniClip)
+			timeDelay = 0.0
+		end
+
+		if value == "W" then
+			GameObjectFrontMove(speed)
+		else
+			GameObjectFrontMove(-1 * speed)
+		end
+
+	--회전 관련 입력
+	elseif value == "A" then
+		GameObjectFrontRotation(-0.08)
+	elseif value == "D" then
+		GameObjectFrontRotation(0.08)
+	elseif value == "SPACE" then
+		
+		status = "attack"
+		aniClip = "attack2"
+		SetAni(aniClip)
+		timeDelay = 0.0
+
+	end
+
+end
+
+--마우스 입력을 받는 함수
+function OnMouseEvent(type, posX, posY)
+	
+	if status == "death" then
+		return
+	end
+
+end
+
+--COLLISION 이벤트 함수
+function CollisionEvent(UID_1, collData1, UID_2, collData2)
+	
+	if status == "death" then
+		return
+	end
+
+	--오른손 공격이 활성화 상태이고 적일 경우에만 공격
+	if isRightAttack == true and collData1 == "playerSwordRH" and (collData2 == "goblinBody" or collData2 == "skeletonBody") then
+		--공격 함수를 호출
+		TargetObjectDemage(UID_2, power)
+		--공격을 비활성화 시킨다
+		isRightAttack = false
+	end
+	
+	--왼손 공격이 활성화 상태이고 적일 경우에만 공격
+	if isLeftAttack == true and collData1 == "playerSwordLH" and (collData2 == "goblinBody" or collData2 == "skeletonBody") then
+		--공격 함수를 호출
+		TargetObjectDemage(UID_2, power)
+		--공격을 비활성화 시킨다
+		isLeftAttack = false
+	end
+end
+
+--ANIMATION 이벤트 함수
+function AnimationEvent(eventType)
+	
+	if eventType == 1 then
+		isRightAttack = true
+	elseif eventType == 2 then
+		isRightAttack = false
+	elseif eventType == 3 then
+		isLeftAttack = true
+	elseif eventType == 4 then
+		isLeftAttack = false
+	elseif eventType == 5 then
+		status = "idle"
+		aniClip = "idle"
+		SetAni(aniClip)
+		timeDelay = 0.0
+	elseif eventType == 6 then
+		DeleteObject()
+		return
+	end
+
+end
+
+--데미지를 입었을때 호출되는 함수
+function OnDemage(demage)
+
+	if status == "death" then
+		return
+	end
+
+	hp = hp - demage
+	
+	if hp < 0 then
+		hp = 0
+	end
+end

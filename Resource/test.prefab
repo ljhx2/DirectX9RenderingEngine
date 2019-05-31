@@ -1,0 +1,104 @@
+#Prefab File Load
+gameObject
+{
+	name
+	test.FBX
+	GAMEOBJECT_TAG
+	TAG_ENEMY
+	TranslateComponent
+	{
+		POS
+		0.000000 0.000000 -20.000000
+		ROT
+		0.000000 0.110000 0.000000
+		SCALE
+		0.200000 0.200000 0.200000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath test.FBX
+		MeterialTexture
+		SM_Skeleton_Base Prefabs\texture\Skeleton_Body.png
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+		ANIM_CLIP
+		attack1 0 981.000000 1013.000000 1
+		ANIM_CLIP
+		attack2 0 1013.000000 1103.000000 1
+		ANIM_CLIP
+		attack3 0 1103.000000 1143.000000 1
+		ANIM_CLIP
+		death 0 0.000000 48.000000 0
+		ANIM_CLIP
+		hit1 0 48.000000 98.000000 0
+		ANIM_CLIP
+		hit2 0 98.000000 190.000000 0
+		ANIM_CLIP
+		idle1 0 190.000000 459.000000 1
+		ANIM_CLIP
+		idle2 0 460.000000 567.000000 1
+		ANIM_CLIP
+		idle3 0 568.000000 626.000000 1
+		ANIM_CLIP
+		resurrection 0 640.000000 814.000000 0
+		ANIM_CLIP
+		run 0 814.000000 830.000000 1
+		ANIM_CLIP
+		standUp1 0 831.000000 891.000000 0
+		ANIM_CLIP
+		walk1 0 1143.000000 1174.000000 1
+		ANIM_CLIP
+		walk2 0 1175.000000 1203.000000 1
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER
+		0
+		COLLISION_TYPE
+		0
+		COLLISION_SHAPE
+		0 skeletonBody 9.000000 20.000000 4.000000 0.000000 0.000000 0.000000 0.000000 2.000000 0.000000 "Bip01_Pelvis" 1
+		COLLISION_SHAPE
+		1 skeletonHead 7.000000 7.000000 7.000000 0.000000 0.000000 0.000000 2.000000 0.000000 0.000000 "Bip01_Head1" 1
+		COLLISION_SHAPE
+		0 skeletonSword 2.000000 1.000000 18.000000 0.000000 0.240000 0.000000 -2.000000 0.000000 -18.000000 "Bip01_R_Hand" 1
+	}
+	gameObject
+	{
+		name
+		class01_sword_000.FBX
+		GAMEOBJECT_TAG
+		TAG_STATIC
+		TranslateComponent
+		{
+			POS
+			2.000000 0.000000 0.000000
+			ROT
+			0.000000 1.800000 0.000000
+			SCALE
+			0.500000 0.500000 0.500000
+		}
+		FbxMeshComponent
+		{
+			folderPath Prefabs/
+			filePath class01_sword_000.FBX
+			MeterialTexture
+			sword Prefabs\class01_sword_000.png
+			1.000000 1.000000 1.000000 1.000000
+		}
+		ColliderComponent
+		{
+			BOUNDING_RENDER
+			0
+			COLLISION_TYPE
+			1
+		}
+		AttackBipName
+		{
+			Bip01_R_Hand
+		}
+	}
+}

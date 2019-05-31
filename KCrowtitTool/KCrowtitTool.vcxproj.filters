@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dock">
+      <UniqueIdentifier>{6c70e50e-8856-4525-8a83-dabc27f3583b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dock\DockHost">
+      <UniqueIdentifier>{87a7b1b3-e298-4005-bb47-f2647d531f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dock\Res">
+      <UniqueIdentifier>{34f41874-4881-4216-a69e-5f91906cd460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dock\CSTB">
+      <UniqueIdentifier>{9f853d01-1b6e-4e3d-bea6-46dd429ac498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{7780bf8f-b7a1-4c28-b232-36a45c7acae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{ea2787ac-271f-4002-b4f7-aa0c380acfca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomWindow">
+      <UniqueIdentifier>{8b59d895-65dd-4f42-af49-d0d49cdf7be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomWindow\Base">
+      <UniqueIdentifier>{2b852841-f9c3-4a9b-97a7-3e8c986f2d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomWindow\ComponentWin">
+      <UniqueIdentifier>{6e9481ea-41fa-4f02-aecc-684944d30fff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KCrowtitTool.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrusiveWeakTree.h">
+      <Filter>Dock\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrusiveWeakList.h">
+      <Filter>Dock\CSTB</Filter>
+    </ClInclude>
+    <ClInclude Include="DockHost.h">
+      <Filter>Dock\DockHost</Filter>
+    </ClInclude>
+    <ClInclude Include="DockHostImpl.h">
+      <Filter>Dock\DockHost</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\resource.h">
+      <Filter>Dock\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="DockArrow.h">
+      <Filter>Dock\DockHost</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameView.h">
+      <Filter>CustomWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cHierarchyView.h">
+      <Filter>CustomWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cProjectView.h">
+      <Filter>CustomWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseCustomWindow.h">
+      <Filter>CustomWindow\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cDebugView.h">
+      <Filter>CustomWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cInspectorView.h">
+      <Filter>CustomWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="willMakeDLL.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlane.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cInput.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="cUtil.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="cComponentBase.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransformView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticMeshComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cAniComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cFbxComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cColliderComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrainComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cWorkingCamera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cScriptComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cDebugLog.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkyBoxComponentView.h">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KCrowtitTool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DockHost.cpp">
+      <Filter>Dock\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="DockHostCaptionBar.cpp">
+      <Filter>Dock\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="DockHostHit.cpp">
+      <Filter>Dock\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="DockHostMousing.cpp">
+      <Filter>Dock\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="DockArrow.cpp">
+      <Filter>Dock\DockHost</Filter>
+    </ClCompile>
+    <ClCompile Include="DockableSubclass.cpp">
+      <Filter>Dock</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameView.cpp">
+      <Filter>CustomWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cHierarchyView.cpp">
+      <Filter>CustomWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cProjectView.cpp">
+      <Filter>CustomWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseCustomWindow.cpp">
+      <Filter>CustomWindow\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugView.cpp">
+      <Filter>CustomWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cInspectorView.cpp">
+      <Filter>CustomWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlane.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cInput.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="cUtil.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="cComponentBase.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransformView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticMeshComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cAniComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cFbxComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cColliderComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrainComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cWorkingCamera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cScriptComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cDebugLog.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkyBoxComponentView.cpp">
+      <Filter>CustomWindow\ComponentWin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KCrowtitTool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Res\res.rc">
+      <Filter>Dock\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="KCrowtitTool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

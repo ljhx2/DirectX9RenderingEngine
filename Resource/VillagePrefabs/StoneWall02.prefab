@@ -1,0 +1,33 @@
+#Prefab File Load
+gameObject
+{
+	name
+	StoneWall02.FBX
+	TranslateComponent
+	{
+		POS
+		1380.000000 -110.000000 5220.000000
+		ROT
+		-1.570000 -3.399997 0.000000
+		SCALE
+		2.000000 2.000000 2.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath StoneWall02.FBX
+		MeterialTexture
+		ASE_CM_Vill_Stonewall06_SM Prefabs\CM_Vill_Stonewall_A.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER
+		0
+		COLLISION_TYPE
+		1
+	}
+}

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{60354456-f5b5-4d5d-9878-bcd5d7e7fee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TinyXML">
+      <UniqueIdentifier>{7e2d5f72-0f00-4ab6-909a-09a303eb49f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Terrain">
+      <UniqueIdentifier>{09f9b481-80ba-42a9-8be9-87000fcb0d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Manager">
+      <UniqueIdentifier>{5b679943-303a-4dbb-941f-7efefcc1ae36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cAllocateHierarchy.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticMeshComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedMeshComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cLevelParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cColliderComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cFbxComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cFbxData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrainComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkyBoxComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cPrefabParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollisionSphere.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollisionBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrainData.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cScriptComponent.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2\tinyxml2.cpp">
+      <Filter>Source\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollisionShape.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustum.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="cQuadTree.cpp">
+      <Filter>Source\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrainMnager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticMeshManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkinnedMeshManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cFbxManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollisionManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueIdManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObjectManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cWorldMapManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShadowManager.cpp">
+      <Filter>Source\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="aStarAlgorithm.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="include\D3DRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DeviceMgr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cAllocateHierarchy.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedMesh.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjParser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticMeshComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedMeshComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cLevelParser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cColliderComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cFbxComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cFbxData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrainComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cPrefabParser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkyBoxComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollisionSphere.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollisionBox.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxUtil.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrainData.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cScriptComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2\tinyxml2.h">
+      <Filter>Source\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneParser.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollisionShape.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustum.h">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="cQuadTree.h">
+      <Filter>Source\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrainMnager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticMeshManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkinnedMeshManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cFbxManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollisionManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueIdManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightComponent.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObjectManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cWorldMapManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cShadowManager.h">
+      <Filter>Source\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="aStarAlgorithm.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

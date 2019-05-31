@@ -1,0 +1,7 @@
+function StartScript()
+	SetGameObjectPos(-100,0,100)
+end
+
+function UpdateScript(time)
+	
+end

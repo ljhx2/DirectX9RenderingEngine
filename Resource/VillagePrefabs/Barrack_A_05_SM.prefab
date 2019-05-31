@@ -1,0 +1,30 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Barrack_A_05_SM.FBX
+	TranslateComponent
+	{
+		POS
+		-210.000000 0.000000 30.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Barrack_A_05_SM.FBX
+		MeterialTexture
+		Barrack_A_05_SM Prefabs\Barrack_A_01_5.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		0
+	}
+}

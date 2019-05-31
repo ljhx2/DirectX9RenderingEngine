@@ -1,0 +1,31 @@
+#Prefab File Load
+gameObject
+{
+	name
+	House_A_04_Ruin_SM.FBX
+	TranslateComponent
+	{
+		POS
+		-110.000000 0.000000 -560.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath House_A_04_Ruin_SM.FBX
+		MeterialTexture
+		House_A_04_Ruin_SM Prefabs\House_A_01_Ruin.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		
+		0
+	}
+}

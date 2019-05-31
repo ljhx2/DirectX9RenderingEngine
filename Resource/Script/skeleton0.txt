@@ -1,0 +1,21 @@
+
+--Start함수 시작
+function StartScript()
+	SetAni("idle")
+end
+
+--update함수 시작
+function UpdateScript(time)
+	
+end
+
+
+--COLLISION 이벤트 함수
+function CollisionEvent(UID_1, UID_2)
+	testFunction()
+end
+
+--ANIMATION 이벤트 함수
+function AnimationEvent()
+
+end

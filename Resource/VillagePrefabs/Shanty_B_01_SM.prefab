@@ -1,0 +1,30 @@
+#Prefab File Load
+gameObject
+{
+	name
+	Shanty_B_01_SM.FBX
+	TranslateComponent
+	{
+		POS
+		-70.000000 0.000000 210.000000
+		ROT
+		-1.570000 0.000000 0.000000
+		SCALE
+		1.000000 1.000000 1.000000
+	}
+	FbxMeshComponent
+	{
+		folderPath Prefabs/
+		filePath Shanty_B_01_SM.FBX
+		MeterialTexture
+		Shanty_B_01_SM Prefabs\Shanty_B_01.tga
+		1.000000 1.000000 1.000000 1.000000
+	}
+	AnimComponent
+	{
+	}
+	ColliderComponent
+	{
+		BOUNDING_RENDER		0
+	}
+}
